@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio | Éder Félix</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container topbar__inner">
+      <div class="brand">
+        <span class="brand__dot"></span>
+        <span class="brand__name">Éder Félix</span>
+      </div>
+
+      <nav class="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <div class="topbar__actions">
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/eder-f%C3%A9lix/" target="_blank" rel="noopener">LinkedIn</a>
+        <a class="btn btn--primary" href="https://github.com/ederfelixsilva" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+            <div class="perfil">
+  <img src="foto.png" alt="Éder Félix">
+  <span class="brand__role">Full Stack Developer</span>
+  <br>
+</div>
+<br>
+<br>
+          <p class="badge">Portfólio • Full Stack em evolução</p>
+          <h1>
+            Construindo projetos reais com foco em <span class="accent">prática</span>, <span class="accent">consistência</span> e <span class="accent">entrega</span>.
+          </h1>
+          <p class="subtitle">
+            Aqui estão meus projetos mais recentes:  uma landing page responsiva e um sistema full stack de gerenciamento de tarefas.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#projetos">Ver projetos</a>
+            <a class="btn btn--ghost" href="#contato">Falar comigo</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <span class="stat__num">2</span>
+              <span class="stat__label">Projetos publicados</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">HTML • CSS • JS</span>
+              <span class="stat__label">Front-end</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">Node • Express</span>
+              <span class="stat__label">Back-end</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__card">
+          <div class="codecard">
+            <div class="codecard__top">
+              <span class="dot dot--r"></span>
+              <span class="dot dot--y"></span>
+              <span class="dot dot--g"></span>
+              <span class="codecard__title">projects.json</span>
+            </div>
+            <pre class="codecard__body"><code>{
+  "projects": [
+    "BurguerLab Landing",
+    "TaskFlow Full Stack"
+  ],
+  "focus": [
+    "UI/UX clean",
+    "CRUD e API REST",
+    "Deploy"
+  ]
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section">
+      <div class="container">
+        <h2 class="section__title">Sobre</h2>
+        <p class="section__text">
+          Sou estudante e estou em transição/entrada na área de TI, focado em desenvolvimento.
+          Tenho praticado criando projetos completos, melhorando a organização do código, UI e deploy.
+        </p>
+
+        <div class="chips">
+          <span class="chip">HTML</span>
+          <span class="chip">CSS</span>
+          <span class="chip">JavaScript</span>
+          <span class="chip">Node.js</span>
+          <span class="chip">Express</span>
+          <span class="chip">REST</span>
+          <span class="chip">Git/GitHub</span>
+          <span class="chip">Deploy (Render / Pages)</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Projetos</h2>
+          <p class="section__muted">Links de demo e repositório para cada projeto.</p>
+        </div>
+
+        <div class="grid">
+          <!-- BurguerLab -->
+          <article class="card">
+            <div class="card__tag">Landing Page</div>
+            <h3 class="card__title">BurguerLab</h3>
+            <p class="card__text">
+              Minha landing page com layout moderno, foco em responsividade e apresentação do produto.
+            </p>
+
+            <ul class="card__list">
+              <li>Layout responsivo</li>
+              <li>HTML + CSS</li>
+              <li>Publicada no GitHub Pages</li>
+            </ul>
+
+            <div class="card__actions">
+     <a class="btn btn--ghost" href="https://github.com/ederfelixsilva/burguerlab-landing" target="_blank" rel="noopener">Ver código</a>
+            </div>
+          </article>
+
+          <!-- TaskFlow -->
+          <article class="card card--highlight">
+            <div class="card__tag">Full Stack</div>
+            <h3 class="card__title">TaskFlow</h3>
+            <p class="card__text">
+              Sistema de gerenciamento de tarefas com CRUD, filtros e integração entre front e back via API REST.
+            </p>
+
+            <ul class="card__list">
+              <li>Node.js + Express</li>
+              <li>CRUD + Persistência</li>
+              <li>Deploy no Render</li>
+            </ul>
+
+            <div class="card__actions">
+              <a class="btn btn--primary" href="https://taskflow-fullstack-1.onrender.com" target="_blank" rel="noopener">Ver demo</a>
+              <a class="btn btn--ghost" href="https://github.com/ederfelixsilva/taskflow-fullstack" target="_blank" rel="noopener">Ver código</a>
+            </div>
+          </article>
+        </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="container">
+        <h2 class="section__title">Contato</h2>
+        <p class="section__text">
+          Quer falar comigo? Me chama no LinkedIn ou veja meus repositórios no GitHub.
+        </p>
+
+        <div class="contact">
+          <a class="btn btn--primary" href="https://www.linkedin.com/in/eder-f%C3%A9lix" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn--ghost" href="https://github.com/ederfelixsilva" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn--ghost" href="mailto:gunder1eder@gmail.com">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© <span id="year"></span> Éder Félix • Portfólio</span>
+      <span class="footer__muted">Feito com HTML + CSS</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
